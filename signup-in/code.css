@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top:100px ;
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 100px white;
+}
+h1{
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 40px;
+    padding: 50px;
+    font-size: 60px;
+    color: rgb(177, 4, 4);
+    text-shadow: 0px 0px 25px rgb(177, 4, 4);
+}
+.forum{
+    margin-top: 40px;
+}
+
+.forum input{
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 10px 10px;
+    width: 250px;
+    background-color: #131010;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+.forum input::placeholder{
+    text-align: center;
+}
+.approve{
+    margin-top: 30px;
+}
+.approve .submitx{
+    margin: 50px 50px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #222;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7 ease;
+    text-shadow:0px 0px 25px whitesmoke;
+}
+.approve .submitx:hover{
+    transform: scale(1.1);
+}
+.approve .submity{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #222;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7 ease;
+    text-shadow:0px 0px 25px whitesmoke;
+}
+.approve .submity:hover{
+    transform: scale(1.1);
+}
+.approve span{
+    cursor: pointer;
+    color: rgb(177, 4, 4);
+}
+.approve .forgot-password{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #222;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7 ease;
+    text-shadow:0px 0px 25px whitesmoke;
+    
+}
+.approve .forgot-password:hover{
+    transform: scale(1.1);
+}
